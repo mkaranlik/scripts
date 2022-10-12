@@ -6,4 +6,3 @@ yum install docker-ce docker-ce-cli containerd.io
 ##rundocker-with-nonrootuser
 sudo groupadd docker
 sudo usermod -aG docker $USER
-newgrp docker
